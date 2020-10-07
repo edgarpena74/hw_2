@@ -32,7 +32,8 @@ section {
   position: relative;
 }
 
-.aboutMe {
+.aboutMe,
+.portfolio {
   color: lightseagreen;
   font-size: 40px;
   font-weight: 700;
@@ -41,7 +42,7 @@ section {
   margin-top: -10px !important;
 
   /* margin-left: 0%; */
-  border-bottom: lightgray 3px solid !important;
+  border-bottom: lightgray 1px solid !important;
 }
 
 .imgSection {
@@ -52,7 +53,8 @@ section {
 
   padding-left: 0%;
 }
-/* 
-.text1 {
-  padding-top: 1px;
-} */
+
+.cardImg {
+  float: left;
+  padding: 20px;
+}
