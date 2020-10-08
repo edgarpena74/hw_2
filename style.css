@@ -56,3 +56,7 @@ section {
   float: left !important;
   padding: 20px;
 }
+
+.containerContact {
+  width: 60% !important;
+}
