@@ -15,21 +15,23 @@ nav {
 }
 
 nav ul {
-  /* margin-right: 40px; */
   margin-bottom: 0% !important;
 }
 
 nav ul li a {
   color: darkgrey;
-  /* padding: px; */
 }
 
 section {
   background-color: white;
-  margin-top: 100px;
+  margin-top: 90px;
   margin-left: 20px !important;
+  margin-bottom: 30px !important;
   padding: 20px;
-  position: relative;
+}
+
+.containerDoggo {
+  width: 54% !important;
 }
 
 .aboutMe,
@@ -37,11 +39,7 @@ section {
   color: lightseagreen;
   font-size: 40px;
   font-weight: 700;
-  /* margin: 20px;*/
-
   margin-top: -10px !important;
-
-  /* margin-left: 0%; */
   border-bottom: lightgray 1px solid !important;
 }
 
@@ -55,6 +53,6 @@ section {
 }
 
 .cardImg {
-  float: left;
+  float: left !important;
   padding: 20px;
 }
